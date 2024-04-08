@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="30" name="Suite" parallel="tests">
+    <test name="internal module">
+        <classes>
+            <class name="org.example.TestMethod_Luma_Page">
+                <methods>
+                    <include name="ListOfElements" />
+                    <include name="VerifyDataProviders"/>
+                    <include name="VerifyForgotPassword"/>
+                    <include name="VerifyMouseActions"/>
+                    <include name="VerifyMenActions"/>
+                    <include name="CreateAccount"/>
+                    <include name="SearchOperation"/>
+                    <include name="VerifySearchwithWrongWords"/>
+                    <include name="VerifySignin"/>
+                    <include name="CapturingHomePage"/>
+                    <include name="VerifyMyShoppinginLuma"/>
+                    <include name="VerifyShopinLuma"/>
+                    <include name="VerifyAddToCart"/>
+                    <include name="VerifyRemoveFromCart"/>
+                    <include name="VerifyCancelFromCart"/>
+                    <include name="VerifyInCorrectPageTitle"/>
+                    <include name="VerifyCorrectPageTitle"/>
+                    <include name="VerifyDataProviders"/>
+                    <include name="VerifyForgotPassword"/>
+                    <include name="VerifySearchandClear"/>
+                    <include name="VerifyFooterLinks"/>
+                    <include name="VerifyMyAccountEdit"/>
+                    <include name="VerifyAddressDetails"/>
+                    <include name="VerifyPaymentDetails"/>
+                    <include name="VerifyMyWishList"/>
+                    <include name="VerifyMyOrders"/>
+
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
